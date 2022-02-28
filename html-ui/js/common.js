@@ -9,7 +9,7 @@ var customer_login_url = 'http://localhost:30093/customers/login/'
 
 var customer_url = 'http://localhost:30093/customers/customer/'
 
-var cart_url = 'http://localhost:30093/carts/api/carts/'
+var cart_url = 'http://localhost:30093/carts/api/orders/'
 
 
 /*
@@ -264,7 +264,7 @@ function getCartsByCustomerId()
          console.log(products);
 		 
 		var data={};
-		data.cartID = 1;
+		data.customerID = 1;
 		var cartProducts=[];
 		
 		 products.forEach(function(product) {
