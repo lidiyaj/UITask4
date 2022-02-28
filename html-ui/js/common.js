@@ -9,7 +9,7 @@ var customer_login_url = 'http://localhost:30093/customers/login/'
 
 var customer_url = 'http://localhost:30093/customers/customer/'
 
-var cart_url = 'http://localhost:30093/carts/api/orders/'
+var cart_url = 'http://localhost:30093/carts/api/carts/'
 
 
 /*
